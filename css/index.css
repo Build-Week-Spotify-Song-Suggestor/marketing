@@ -230,6 +230,7 @@ img {
 .nav .nav-contain .nav-items .home {
   background-color: red;
   color: white;
+  padding: 0.6em 1.2em 0.6em 1.2em;
 }
 .head {
   max-width: 100%;

@@ -136,6 +136,7 @@ html,
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
+  background-image: linear-gradient(-90deg, #f9f1e1, #6d5264);
 }
 h1,
 h2,
@@ -176,8 +177,8 @@ img {
   margin-bottom: 3rem;
 }
 #wrapper .wave {
-  text-decoration: none;
-  color: green;
+  text-decoration: underline;
+  color: white;
 }
 #wrapper .nav {
   padding-right: 1%;
@@ -234,10 +235,11 @@ img {
   padding: 0.6em 1.2em 0.6em 1.2em;
 }
 #wrapper .nav .nav-contain .nav-items a:hover {
-  background: green;
+  background: #6d5264;
+  color: white;
 }
 #wrapper .nav .nav-contain .nav-items #home {
-  background-color: red;
+  background-color: #2c3e57;
   color: white;
   border-radius: 5px;
   padding: 0.6em 1.2em 0.6em 1.2em;
@@ -258,16 +260,16 @@ img {
   line-height: 100px;
 }
 /**********/
-header {
+.crewhead {
   text-align: center;
-  color: green;
+  color: white;
+  text-decoration: underline;
 }
 .main {
   padding-top: 5rem;
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: space-between;
 }
 @media (max-width:500px) {
   .main {
@@ -279,33 +281,17 @@ header {
   height: 200px;
   margin: 2rem 0rem 2rem 5rem;
 }
-.main .first {
-  margin: 0 auto;
-  max-width: 100%;
-  width: 70rem;
-  text-align: center;
+.main .one-three {
+  width: 40%;
 }
-.main .first a {
+.main .one-three a {
   text-decoration: none;
   color: black;
 }
 .main .second {
-  margin: 0 auto;
-  max-width: 100%;
-  width: 70rem;
-  text-align: center;
+  width: 30%;
 }
 .main .second a {
-  text-decoration: none;
-  color: black;
-}
-.main .third {
-  margin: 0 auto;
-  max-width: 100%;
-  width: 70rem;
-  text-align: center;
-}
-.main .third a {
   text-decoration: none;
   color: black;
 }

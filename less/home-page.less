@@ -1,60 +1,75 @@
 .main {
     padding-top: 5rem;
     display: flex;
-    //align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    //justify-content: center;
-    @media @mobile {
-        flex-direction: column;
-    }
-    img {
-        width: 300px;
-        height: 200px;
-        margin: 2rem 0rem 2rem 5rem;
-    }
 
-    .one-three {
-        //display: flex;
-        //flex-direction: column;
-        //justify-content: flex-start;
-        //margin: 0 auto;
-        //max-width: 100%;
-        width: 40%;
-        //text-align: center;
-       
 
-            a {
-                text-decoration: none;
-                color: black;
+        img {
+            width: 300px;
+            height: 200px;
+            margin-bottom: 2rem;
+        }
+
+            .outer2 {
+                display: flex;
+                justify-content: flex-end;
+
+
+
+                .second {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    align-items: center;
+                    width: 30%;
+                    text-align: center;
+                    @media @mobile {
+                        width: 50%;
+                    }
+                    @media @tablet {
+                        width: 50%;
+                    }
+            
+            
+                        a {
+                            text-decoration: none;
+                            color: black;
+                        }
+               
+                }
             }
-        //display: flex;
-        //flex-wrap: wrap;
-        //box-sizing: border-box;
-        //align-items: stretch;
-    }
-    .second {
-        //display: flex;
-        //flex-direction: column;
-        //justify-content: flex-end;
-        //margin: 0 auto;
-        width: 30%;
-        //width: 70rem;
-        //text-align: center;
+
+        .outer {
+            display: flex;
+            width: 100%;
         
 
+                .one-three {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    box-sizing: border-box;
+                    width: 40%;
+                    text-align: center;
+                    @media @mobile {
+                        width: 50%;
+                    }
+                    @media @tablet {
+                        width: 50%;
+                    }
+                
 
-            a {
-                text-decoration: none;
-                color: black;
-            }
-        //display: flex;
-        //flex-wrap: wrap;
-        //box-sizing: border-box;
-        //align-items: stretch;
-    }
-
+                        a {
+                            text-decoration: none;
+                            color: black;
+                        }
+                }
+        }
 }
+
 
 /********/
 
@@ -62,7 +77,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0rem 30rem 0rem 30rem;
 
         
 
@@ -84,5 +98,46 @@
                 p {
                     text-align: center;
                 }
-        
+
+                    .outer {
+                        display: flex;
+                        width: 100%;
+                    
+                        .one-three-five {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            align-items: center;
+                            box-sizing: border-box;
+                            width: 40%;
+                            text-align: center;
+                            @media @mobile {
+                                width: 50%;
+                            }
+                            @media @tablet {
+                                width: 50%;
+                            }
+                        }
+                    }
+
+                    .outer2 {
+                        display: flex;
+                        justify-content: flex-end;
+
+
+                        .two-four-six {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-end;
+                            align-items: center;
+                            width: 30%;
+                            text-align: center;
+                            @media @mobile {
+                                width: 50%;
+                            }
+                            @media @tablet {
+                                width: 50%;
+                            }
+                        }
+                    }
 }

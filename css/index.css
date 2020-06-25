@@ -268,30 +268,65 @@ img {
 .main {
   padding-top: 5rem;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-@media (max-width:500px) {
-  .main {
-    flex-direction: column;
-  }
 }
 .main img {
   width: 300px;
   height: 200px;
-  margin: 2rem 0rem 2rem 5rem;
+  margin-bottom: 2rem;
 }
-.main .one-three {
-  width: 40%;
+.main .outer2 {
+  display: flex;
+  justify-content: flex-end;
 }
-.main .one-three a {
+.main .outer2 .second {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30%;
+  text-align: center;
+}
+@media (max-width:500px) {
+  .main .outer2 .second {
+    width: 50%;
+  }
+}
+@media (max-width:800px) {
+  .main .outer2 .second {
+    width: 50%;
+  }
+}
+.main .outer2 .second a {
   text-decoration: none;
   color: black;
 }
-.main .second {
-  width: 30%;
+.main .outer {
+  display: flex;
+  width: 100%;
 }
-.main .second a {
+.main .outer .one-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  width: 40%;
+  text-align: center;
+}
+@media (max-width:500px) {
+  .main .outer .one-three {
+    width: 50%;
+  }
+}
+@media (max-width:800px) {
+  .main .outer .one-three {
+    width: 50%;
+  }
+}
+.main .outer .one-three a {
   text-decoration: none;
   color: black;
 }
@@ -300,7 +335,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0rem 30rem 0rem 30rem;
 }
 #crew img {
   width: 200px;
@@ -316,6 +350,51 @@ img {
 }
 #crew p {
   text-align: center;
+}
+#crew .outer {
+  display: flex;
+  width: 100%;
+}
+#crew .outer .one-three-five {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  width: 40%;
+  text-align: center;
+}
+@media (max-width:500px) {
+  #crew .outer .one-three-five {
+    width: 50%;
+  }
+}
+@media (max-width:800px) {
+  #crew .outer .one-three-five {
+    width: 50%;
+  }
+}
+#crew .outer2 {
+  display: flex;
+  justify-content: flex-end;
+}
+#crew .outer2 .two-four-six {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30%;
+  text-align: center;
+}
+@media (max-width:500px) {
+  #crew .outer2 .two-four-six {
+    width: 50%;
+  }
+}
+@media (max-width:800px) {
+  #crew .outer2 .two-four-six {
+    width: 50%;
+  }
 }
 .footer {
   text-align: center;

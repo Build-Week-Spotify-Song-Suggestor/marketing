@@ -267,10 +267,13 @@ img {
 }
 .main {
   padding-top: 5rem;
+  padding-bottom: 10rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 .main img {
   width: 300px;
@@ -286,7 +289,7 @@ img {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  width: 30%;
+  width: 40%;
   text-align: center;
 }
 @media (max-width:500px) {
@@ -335,6 +338,8 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 #crew img {
   width: 200px;
@@ -383,7 +388,7 @@ img {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  width: 30%;
+  width: 40%;
   text-align: center;
 }
 @media (max-width:500px) {
